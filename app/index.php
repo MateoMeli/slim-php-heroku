@@ -11,7 +11,7 @@ $app = new \Slim\App([]);
 
 
 $app->get('[/]', function (Request $request, Response $response) {    
-    $response->getBody()->write("Ahora anda lo que estas haciendo");
+    $response->getBody()->write("GET => Bienvenido!!! ,a SlimFramework");
     return $response;
 
 });
