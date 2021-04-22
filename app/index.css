@@ -1,0 +1,34 @@
+*{
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+header{
+    background: url(./assets/images/header.jpg) no-repeat center center ;
+    background-size: cover;
+    height: 100%;
+    justify-content: space-between;
+    position: relative;
+}
+header nav{
+    padding-top: 10px;
+    justify-content: space-between;
+}
+#lista1{
+    list-style-type: none;
+    display: flex;
+}
+#lista1 a{
+    text-decoration: none;
+    color: white;
+    padding: 10px 20px;
+    margin: 5px 10px;
+}
+h1{
+    color: white;
+}
+header>img{
+    padding-left: 10px;
+    height: 100px;
+    width: 300px;
+}
